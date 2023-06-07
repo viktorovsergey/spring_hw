@@ -1,0 +1,25 @@
+package pro.sky.spring;
+
+public class ShoppingBasket {
+   private Integer id;
+
+
+    public ShoppingBasket(Integer id) {
+        this.id=id;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "ShoppingBasket{" +
+                "id=" + id +
+                '}';
+    }
+}
